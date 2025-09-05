@@ -1,0 +1,20 @@
+{
+  "title": "Java Hello World",
+  "description": "Compiler et exécuter un programme Java sur Killercoda",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      { 
+        "title": "Installer Java et exécuter Java", "text": "step1.md" 
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "environment": {
+    "uilayout": "ide"
+  }
+}
