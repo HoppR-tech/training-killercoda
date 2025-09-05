@@ -4,9 +4,8 @@
   "details": {
     "intro": "intro.md",
     "steps": [
-      { "title": "Installer Java et exécuter Hello.java", "text": "1_installation.md" }
-    ],
-    "finish": "finish.md"
+      { "title": "Installer Java et exécuter Java", "text": "installation.md" }
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
