@@ -2,9 +2,13 @@
   "title": "Java Hello World",
   "description": "Compiler et exécuter un programme Java sur Killercoda",
   "details": {
-    "intro": "intro.md",
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
-      { "title": "Installer Java et exécuter Java", "text": "installation.md" }
+      { 
+        "title": "Installer Java et exécuter Java", "text": "step1.md" 
+      }
     ]
   },
   "backend": {
