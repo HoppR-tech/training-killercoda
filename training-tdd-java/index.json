@@ -3,7 +3,8 @@
   "description": "Compiler et exécuter un programme Java sur Killercoda",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "init/foreground.sh"
     },
     "steps": [
       { 
