@@ -13,10 +13,10 @@ echo "🔁 Rechargement du shell..."
 source ~/.bashrc && \
 
 echo "✅ Vérification de l'installation de Bun..."
-bun --version
+bun --version && \
 
 echo "📝 Création d'un fichier test hello.ts..."
-echo 'console.log("Hello Bun!");' > hello.ts
+echo 'console.log("Hello Bun!");' > hello.ts && \
 
 echo "🚀 Exécution du test avec Bun..."
 bun run hello.ts
