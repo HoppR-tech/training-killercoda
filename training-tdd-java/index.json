@@ -17,5 +17,10 @@
   },
   "environment": {
     "uilayout": "ide"
+  },
+  "assets": {
+    "host01": [
+      {"file": "init/Hello.java", "target": "/java", "chmod": "+x"}
+    ]
   }
 }
