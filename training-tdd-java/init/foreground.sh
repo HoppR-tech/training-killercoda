@@ -13,7 +13,7 @@ echo "🔁 Rechargement du shell..."
 source "$HOME/.sdkman/bin/sdkman-init.sh" && \
 
 echo "✅ Vérification de l'installation de SDKMAN..."
-sdk version
+sdk version && \
 
 echo "📝 Création d'un fichier test Hello.java..."
 cat <<EOF > Hello.java
@@ -22,10 +22,10 @@ public class Hello {
         System.out.println("Hello Bun with Java!");
     }
 }
-EOF
+EOF && \
 
 echo "🚀 Compilation du fichier Java..."
-javac Hello.java
+javac Hello.java && \
 
 echo "✅ Exécution du programme Java..."
-java Hello
+java Hello && \
