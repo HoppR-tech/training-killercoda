@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "🔄 Mise à jour des paquets..."
-sudo apt update -y && \
-
 echo "📦 Installation des dépendances (curl, unzip)..."
 sudo apt install -y curl unzip zip && \
 
