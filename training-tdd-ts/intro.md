@@ -1,3 +1,3 @@
-# Installer Java
+# Installer Type Script
 
-Ce scénario va vous apprendre a installer Java dans l'environnement KillerCoda.
+Ce scénario va vous apprendre a installer Type Script dans l'environnement KillerCoda.

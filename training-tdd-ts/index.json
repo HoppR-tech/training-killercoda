@@ -1,13 +1,13 @@
 {
-  "title": "Java Hello World",
-  "description": "Compiler et exécuter un programme Java sur Killercoda",
+  "title": "Type Script Hello World",
+  "description": "Compiler et exécuter un programme Type Script sur Killercoda",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       { 
-        "title": "Installer Java et exécuter Java", "text": "step1.md" 
+        "title": "Installer Type Script et exécuter Type Script", "text": "step1.md" 
       }
     ]
   },
