@@ -3,7 +3,8 @@
   "description": "Compiler et exécuter un programme Type Script sur Killercoda",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "init/background.sh"
     },
     "steps": [
       { 
