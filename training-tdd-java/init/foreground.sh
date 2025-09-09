@@ -15,6 +15,9 @@ source "$HOME/.sdkman/bin/sdkman-init.sh" && \
 echo "✅ Vérification de l'installation de SDKMAN..."
 sdk version && \
 
+echo "☕ Installation de Java avec SDKMAN..."
+sdk install java && \
+
 echo "📝 Création d'un fichier test Hello.java..."
 cat <<EOF > Hello.java
 public class Hello {
@@ -28,4 +31,4 @@ echo "🚀 Compilation du fichier Java..."
 javac Hello.java && \
 
 echo "✅ Exécution du programme Java..."
-java Hello && \
+java Hello
