@@ -10,8 +10,8 @@ sudo apt install -y curl unzip zip && \
 echo "⚡ Installation de SDKMAN..." && \
 curl -s "https://get.sdkman.io" | bash && \
 
-echo "🔁 Initialisation de SDKMAN..." && \
-source "$HOME/.sdkman/bin/sdkman-init.sh" && \
+echo "🔁 Rechargement du shell..." && \
+source ~/.bashrc && \
 
 echo "✅ Vérification de l'installation de SDKMAN..." && \
 sdk version && \
