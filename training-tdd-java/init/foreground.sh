@@ -25,7 +25,7 @@ public class Hello {
         System.out.println("Hello World with Java!");
     }
 }
-EOF && \
+EOF
 
 echo "🚀 Compilation du fichier Java..."
 javac Hello.java && \
