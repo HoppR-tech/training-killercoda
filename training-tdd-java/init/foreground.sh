@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-set -euo pipefail  # stop sur erreur, variables non définies interdites
+#!/bin/bash
 
 echo "🔄 Mise à jour des paquets..." && \
 sudo apt update -y && \
