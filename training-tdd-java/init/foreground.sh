@@ -7,7 +7,7 @@ sudo apt update -y && \
 echo "📦 Installation des dépendances (curl, unzip, zip)..." && \
 sudo apt install -y curl unzip zip && \
 
-echo "⚡ Installation de SDKMAN..." 
+echo "⚡ Installation de SDKMAN..." && \
 curl -s "https://get.sdkman.io" | bash && \
 
 echo "🔁 Initialisation de SDKMAN..." && \
