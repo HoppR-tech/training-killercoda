@@ -1,4 +1,6 @@
-sleep 1
-sudo apt install curl unzip -y
-sudo curl -fsSL https://bun.com/install | bash
-source ~/.bashrc
+#!/bin/bash
+
+sudo apt install -y curl unzip && \
+curl -fsSL https://bun.sh/install | bash && \
+source ~/.bashrc && \
+bun --version
