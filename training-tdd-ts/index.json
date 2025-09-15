@@ -11,7 +11,7 @@
         "title": "Fork le projet depuis Github", "text": "fork_github.md"
       },
       { 
-        "title": "Installer Type Script et exécuter Type Script", "text": "step1.md", "onEnter": "./init/push.sh"
+        "title": "Installer Type Script et exécuter Type Script", "text": "step1.md", "onStart": "./init/push.sh"
       }
     ]
   },
