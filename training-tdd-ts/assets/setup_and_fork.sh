@@ -1,5 +1,5 @@
 # Usage: ./setup_and_fork.sh "Nom Git" "email@domaine.com" "GITHUB_TOKEN"
-if [[ $# -ne 3 ]]; then
+if [ $# -ne 3 ]; then
   echo "Usage: $0 \"Nom Git\" \"email@domaine.com\" \"GITHUB_TOKEN\"" >&2
   exit 1
 fi
@@ -19,6 +19,9 @@ command -v git >/dev/null 2>&1 || { echo "Erreur: 'git' n'est pas installé."; e
 # --- Auth GitHub via token ---
 echo "$GH_TOKEN" | gh auth login --with-token
 
+# --- Configure Git ---
+gh auth setup-git
+
 # --- Config Git (global) ---
 git config --global user.name "$GIT_NAME"
 git config --global user.email "$GIT_EMAIL"
@@ -29,11 +32,11 @@ echo "✅ Git configuré: $(git config --global user.name) <$(git config --globa
 gh repo fork "${REPO_TO_FORK}" --clone=true
 
 # --- Se placer dans le dossier cloné ---
-if [[ -d "$REPOSITORY" ]]; then
+if [ -d "$REPOSITORY" ]; then
   cd $REPOSITORY
 else
   REPO_DIR="$(find . -maxdepth 1 -type d -name '$REPOSITORY*' | head -n 1)"
-  if [[ -n "${REPO_DIR:-}" ]]; then
+  if [ -n "${REPO_DIR:-}" ]; then
     cd "$REPO_DIR"
   else
     echo "⚠️  Impossible de trouver le dossier cloné. Abandon."
