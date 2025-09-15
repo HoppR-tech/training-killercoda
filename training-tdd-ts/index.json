@@ -17,16 +17,17 @@
         "text": "step1.md", 
         "verify": "./init/push.sh"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
   },
-  "assets": {
-    "host01": [
-      {
-        "file": "*",
-        "target": "~/"
-      }
-    ]
-  },
+  
   "backend": {
     "imageid": "ubuntu"
   },
