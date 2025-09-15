@@ -4,7 +4,7 @@ echo "🔄 Mise à jour des paquets..." && \
 sudo apt update -y && \
 
 echo "📦 Installation des dépendances (curl, unzip)..." && \
-sudo apt install -y curl unzip && \
+sudo apt install -y curl unzip gh && \
 
 echo "⚡ Installation de Bun..." && \
 curl -fsSL https://bun.sh/install | bash && \
