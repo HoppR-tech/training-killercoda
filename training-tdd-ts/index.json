@@ -8,10 +8,23 @@
     },
     "steps": [
       {
-        "title": "Fork le projet depuis Github", "text": "fork_github.md"
+        "title": "Fork le projet depuis Github", 
+        "text": "fork_github.md", 
+        "verify": "./init/push.sh"
       },
       { 
-        "title": "Installer Type Script et exécuter Type Script", "text": "step1.md", "onStart": "./init/push.sh"
+        "title": "Installer Type Script et exécuter Type Script", 
+        "text": "step1.md", 
+        "verify": "./init/push.sh"
+      }
+    ]
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "setup_and_fork.sh",
+        "target": "/init",
+        "chmod": "+x"
       }
     ]
   },
