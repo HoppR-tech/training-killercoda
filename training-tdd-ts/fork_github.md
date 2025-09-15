@@ -1,5 +1,9 @@
 # Fork le projet depuis Github
 
+## Définisser votre identité
+git config --global user.email "you@example.com" 
+git config --global user.name "Your Name"  
+
 ## Indentification à Github
 ```
 gh auth login
@@ -15,7 +19,7 @@ Authenticate Git with your GitHub credentials?
 - Y
 
 How would you like to authenticate GitHub CLI?
-- Copier votre token généré
+- Paste an authentication token
 
 Créer un token avec, au minimum, les droits **repo**, **read:org** et **workflow** :  https://github.com/settings/tokens
 

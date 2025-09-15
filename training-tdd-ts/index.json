@@ -23,7 +23,7 @@
     "host01": [
       {
         "file": "setup_and_fork.sh",
-        "target": "/init",
+        "target": "~/",
         "chmod": "+x"
       }
     ]
