@@ -16,7 +16,7 @@ echo "☕ Installation de Java avec SDKMAN..." && \
 sdk install java && \
 
 echo "🚀 Compilation du fichier Java..." && \
-javac /java/Hello.java && \
+javac Hello.java && \
 
 echo "✅ Exécution du programme Java..." && \
 java Hello && \

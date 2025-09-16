@@ -12,17 +12,20 @@
         "text": "fork_github.md", 
         "verify": "./init/push.sh"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
   },
   "environment": {
     "uilayout": "ide"
-  },
-  "assets": {
-    "host01": [
-      {"file": "init/Hello.java", "target": "/java", "chmod": "+x"}
-    ]
   }
 }
