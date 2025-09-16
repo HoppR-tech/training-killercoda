@@ -1,5 +1,5 @@
 # Usage: ./setup_and_fork.sh "Nom Git" "email@domaine.com" "GITHUB_TOKEN" "ORGANISATION" "REPOSITORY"
-if [ $# -ne 3 ]; then
+if [ $# -ne 5 ]; then
   echo "Usage: $0 \"Nom Git\" \"email@domaine.com\" \"GITHUB_TOKEN\" \"ORGANISATION\" \"REPOSITORY\"" >&2
   exit 1
 fi

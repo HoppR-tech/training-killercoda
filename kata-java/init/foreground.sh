@@ -1,10 +1,7 @@
 #!/bin/bash
 
-echo "🔄 Mise à jour des paquets..." && \
-sudo apt update -y && \
-
 echo "📦 Installation des dépendances (curl, unzip, zip)..." && \
-sudo apt install -y curl unzip zip && \
+sudo apt install -y curl unzip zip gh && \
 
 echo "⚡ Installation de SDKMAN..." && \
 curl -s "https://get.sdkman.io" | bash && \

@@ -1,14 +1,16 @@
 {
-  "title": "Java Hello World",
-  "description": "Compiler et exécuter un programme Java sur Killercoda",
+  "title": "Java Kata",
+  "description": "Environnement Java pour Kata",
   "details": {
     "intro": {
       "text": "intro.md",
       "foreground": "init/foreground.sh"
     },
     "steps": [
-      { 
-        "title": "Installer Java et exécuter Java", "text": "step1.md" 
+      {
+        "title": "Fork le projet depuis Github", 
+        "text": "fork_github.md", 
+        "verify": "./init/push.sh"
       }
     ]
   },
