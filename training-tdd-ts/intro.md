@@ -1,3 +1,3 @@
-# Installer Type Script
+# Environnement TS
 
-Ce scénario va vous apprendre a installer Type Script dans l'environnement KillerCoda.
+Bienvenue dans cette environnement TS avec Bun. Il vous servira pour votre Kata. 

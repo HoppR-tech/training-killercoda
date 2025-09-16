@@ -18,4 +18,4 @@ echo 'console.log("Hello Bun!");' > hello.ts && \
 echo "🚀 Exécution du test avec Bun..." && \
 bun run hello.ts && \
 
-echo "🎉 Terminé."
+echo "🎉 Init Terminé."

@@ -1,36 +1,11 @@
-# Fork le projet depuis Github
+# Fork du repository Github et identification Git
 
-## Définisser votre identité
-git config --global user.email "you@example.com" 
-git config --global user.name "Your Name"  
+Pour fork notre repo de manière automatisé, nous avons besoin d'un token Github.
+Pour cela, créer un token avec, au minimum, les droits **repo**, **read:org** et **workflow** :  https://github.com/settings/tokens
 
-## Indentification à Github
+Exécuter la commande suivante pour fork le repository voulu en remplaçant les arguments par les votres :
 ```
-gh auth login
-```
+sh setup_and_fork.sh "GITHUB_NAME" "GITHUB_EMAIL" "GITHUB_TOKEN" "ORGANISATION" "REPOSITORY"
+```{{copy}}
 
-What account do you want to log into ?
-- Github.com
-
-What is your preferred protocol for Git operations on this host?
-- HTTPS
-
-Authenticate Git with your GitHub credentials?
-- Y
-
-How would you like to authenticate GitHub CLI?
-- Paste an authentication token
-
-Créer un token avec, au minimum, les droits **repo**, **read:org** et **workflow** :  https://github.com/settings/tokens
-
-Vous êtes connecté à Github !
-
-## Fork du repo
-```
-gh repo fork HoppR-tech/kata-leap-years --clone=true
-```
-
-Déplacer vous dans le repo fork et clone: 
-```
-cd kata-leap-years
-```
+**Remarque :** A chaque step, quand vous cliquez sur **Check**, un push est effectué automatiquement pour sauvegarder votre travail dans votre fork.

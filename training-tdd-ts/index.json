@@ -1,6 +1,6 @@
 {
-  "title": "Type Script Hello World",
-  "description": "Compiler et exécuter un programme Type Script sur Killercoda",
+  "title": "Type Script Kata",
+  "description": "Environnement TS avec Bun pour Kata",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -10,11 +10,6 @@
       {
         "title": "Fork le projet depuis Github", 
         "text": "fork_github.md", 
-        "verify": "./init/push.sh"
-      },
-      { 
-        "title": "Installer Type Script et exécuter Type Script", 
-        "text": "step1.md", 
         "verify": "./init/push.sh"
       }
     ],
