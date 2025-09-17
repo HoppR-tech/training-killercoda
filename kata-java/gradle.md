@@ -35,3 +35,14 @@ Lance l'application (assurez-vous que `mainClass` est défini dans `build.gradle
 ```bash
 ./gradlew run
 ```{{copy}}
+
+# Erreurs connues 
+
+## ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH :
+Si vous avez l'erreur suivante : `ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.`, éxécutez : 
+```bash
+source ~/.bashrc
+```{{copy}}
+
+## Les commandes Gradle ne se terminent pas
+Si votre commande Gradle ne se termine pas. Vérifiez que vous êtes dans le bon dossier. 
