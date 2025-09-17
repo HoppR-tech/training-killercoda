@@ -11,6 +11,11 @@
         "title": "Fork le projet depuis Github", 
         "text": "fork_github.md", 
         "verify": "./init/push.sh"
+      },
+      {
+        "title": "Commandes basiques pour Gradle", 
+        "text": "gradle.md", 
+        "verify": "./init/push.sh"
       }
     ],
     "assets": {
