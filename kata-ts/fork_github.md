@@ -5,7 +5,7 @@ Pour cela, créer un token avec, au minimum, les droits **repo**, **read:org** e
 
 Exécuter la commande suivante pour fork le repository voulu en remplaçant les arguments par les votres :
 ```
-sh setup_and_fork.sh "GITHUB_NAME" "GITHUB_EMAIL" "GITHUB_TOKEN" "ORGANISATION" "REPOSITORY"
+sh setup_and_fork.sh "GITHUB_NAME" "GITHUB_EMAIL" "GITHUB_TOKEN"
 ```{{copy}}
 
 **Remarque :** A chaque step, quand vous cliquez sur **Check**, un push est effectué automatiquement pour sauvegarder votre travail dans votre fork.

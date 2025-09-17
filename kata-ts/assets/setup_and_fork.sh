@@ -1,14 +1,14 @@
-# Usage: ./setup_and_fork.sh "Nom Git" "email@domaine.com" "GITHUB_TOKEN" "ORGANISATION" "REPOSITORY"
-if [ $# -ne 5 ]; then
-  echo "Usage: $0 \"Nom Git\" \"email@domaine.com\" \"GITHUB_TOKEN\" \"ORGANISATION\" \"REPOSITORY\"" >&2
+# Usage: ./setup_and_fork.sh "Nom Git" "email@domaine.com" "GITHUB_TOKEN"
+if [ $# -ne 3 ]; then
+  echo "Usage: $0 \"Nom Git\" \"email@domaine.com\" \"GITHUB_TOKEN\"" >&2
   exit 1
 fi
 
 GIT_NAME="$1"
 GIT_EMAIL="$2"
 GH_TOKEN="$3"
-ORGANISATION="$4"
-REPOSITORY="$5"
+ORGANISATION="HoppR-tech"
+REPOSITORY="kata-leap-years"
 
 REPO_TO_FORK="$ORGANISATION/$REPOSITORY"
 
