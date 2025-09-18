@@ -13,11 +13,6 @@
         "verify": "./init/push.sh"
       },
       {
-        "title": "Checkout base branch", 
-        "text": "checkout_branch.md", 
-        "verify": "./init/push.sh"
-      },
-      {
         "title": "Commandes basiques pour Gradle", 
         "text": "gradle.md", 
         "verify": "./init/push.sh"

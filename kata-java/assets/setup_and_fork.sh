@@ -49,4 +49,12 @@ echo "📂 Dossier courant: $(pwd)"
 echo "🔗 Remotes:"
 git remote -v
 
+
+# -- cd on repository ---
+cd "$(find ~ -type d -name "kata-leap-years" -maxdepth 3 | head -n 1)" \
+  || { echo "⚠️  Impossible de trouver le dossier 'kata-leap-years'. Abandon." ; exit 1; }
+
+# --- track branch ---
+git checkout --track origin/java_base
+
 echo "🎉 Prêt ! Tu peux maintenant travailler et pousser sur ton fork."
