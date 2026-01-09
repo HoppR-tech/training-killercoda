@@ -1,6 +1,6 @@
 {
   "title": "Test driven FrontEnd Kata",
-  "description": "Environnement TS avec Bun pour Kata",
+  "description": "Environnement pour Test driven FrontEnd Kata",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -18,13 +18,13 @@
       {
         "title": "Storybook discovery",
         "text": "1-storybook-discovery/intro.md",
-        "foreground": "assets/fork_and_install.sh 'storybook-discovery'",
+        "foreground": "1-storybook-discovery/init.sh",
         "verify": "1-storybook-discovery/verify.sh"
       },
       {
         "title": "Testing library discovery",
         "text": "2-testing-library-discovery/intro.md",
-        "foreground": "assets/fork_and_install.sh 'testing-library-discovery'",
+        "foreground": "2-testing-library-discovery/init.sh",
         "verify": "2-testing-library-discovery/verify.sh"
       }
     ],

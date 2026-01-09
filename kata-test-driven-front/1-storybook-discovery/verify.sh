@@ -24,3 +24,7 @@ else
 fi
 
 echo "🎉 Storybook est correctement installé et des stories sont présentes"
+
+
+./../init/push.sh
+echo " Enregistrement effectué"

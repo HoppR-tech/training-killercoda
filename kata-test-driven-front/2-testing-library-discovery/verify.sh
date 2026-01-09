@@ -37,3 +37,6 @@ fi
 
 echo "🎉 Tous les tests passent et le kata est validé"
 
+
+./../init/push.sh
+echo " Enregistrement effectué"
