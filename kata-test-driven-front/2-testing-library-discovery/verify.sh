@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 echo "🔍 Vérification des tests Testing Library"
 
 # 1. Vérifier que des fichiers de test existent
@@ -36,7 +34,3 @@ if [ "$TOTAL" -lt 3 ]; then
 fi
 
 echo "🎉 Tous les tests passent et le kata est validé"
-
-
-./push.sh
-echo " Enregistrement effectué"

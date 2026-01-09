@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 echo "🔎 Vérification de l'installation de Storybook"
 

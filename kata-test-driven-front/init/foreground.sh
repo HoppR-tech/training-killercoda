@@ -30,5 +30,8 @@ else
   echo "✅ pnpm déjà installé"
 fi
 
-
 echo "🎉 Init Terminé."
+
+
+echo "🔁 Rechargement du shell..." && \
+source ~/.bashrc && \

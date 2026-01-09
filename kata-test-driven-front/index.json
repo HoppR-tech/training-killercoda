@@ -13,19 +13,19 @@
       {
         "title": "Fork le projet depuis Github", 
         "text": "fork_github.md", 
-        "verify": "./assets/push.sh"
+        "verify": "assets/push.sh"
       }, 
       {
         "title": "Storybook discovery",
         "text": "1-storybook-discovery/intro.md",
         "foreground": "1-storybook-discovery/init.sh",
-        "verify": "1-storybook-discovery/verify.sh"
+        "verify": ["1-storybook-discovery/verify.sh", "assets/push.sh"]
       },
       {
         "title": "Testing library discovery",
         "text": "2-testing-library-discovery/intro.md",
         "foreground": "2-testing-library-discovery/init.sh",
-        "verify": "2-testing-library-discovery/verify.sh"
+        "verify": ["2-testing-library-discovery/verify.sh", "assets/push.sh"]
       }
     ],
     "assets": {

@@ -87,5 +87,5 @@ Storybook **ne remplace pas** les tests automatisés, il les complète.
 ### Option :one: Installation dans un projet existant
 
 ```bash
-npx storybook@latest init
+pnpm create storybook@latest
 ```
