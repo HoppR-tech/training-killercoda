@@ -1,0 +1,47 @@
+{
+  "title": "Test driven FrontEnd Kata",
+  "description": "Environnement TS avec Bun pour Kata",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "init/foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "steps": [
+      {
+        "title": "Fork le projet depuis Github", 
+        "text": "fork_github.md", 
+        "verify": "./init/push.sh"
+      }, 
+      {
+        "title": "Storybook discovery",
+        "text": "1-storybook-discovery/intro.md",
+        "foreground": "assets/fork_and_install.sh 'storybook-discovery'",
+        "verify": "1-storybook-discovery/verify.sh"
+      },
+      {
+        "title": "Testing library discovery",
+        "text": "2-testing-library-discovery/intro.md",
+        "foreground": "assets/fork_and_install.sh 'testing-library-discovery'",
+        "verify": "2-testing-library-discovery/verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {
+          "file": "*",
+          "target": "~/"
+        }
+      ]
+    }
+  },
+  
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "environment": {
+    "uilayout": "ide"
+  }
+}
