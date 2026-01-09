@@ -13,7 +13,7 @@
       {
         "title": "Fork le projet depuis Github", 
         "text": "fork_github.md", 
-        "verify": "./init/push.sh"
+        "verify": "./assets/push.sh"
       }, 
       {
         "title": "Storybook discovery",

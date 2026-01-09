@@ -9,7 +9,7 @@ GIT_EMAIL="$2"
 GH_TOKEN="$3"
 ORGANISATION="HoppR-tech"
 REPOSITORY="kata-leap-years"
-KATA_BRANCH_NAME="origin/test-driven-front"
+KATA_BRANCH_NAME=origin/test-driven-front
 
 REPO_TO_FORK="$ORGANISATION/$REPOSITORY"
 
@@ -51,8 +51,8 @@ echo "🔗 Remotes:"
 git remote -v
 
 # -- cd on repository ---
-cd "$(find ~ -type d -name "kata-leap-years" -maxdepth 3 | head -n 1)" \
-  || { echo "⚠️  Impossible de trouver le dossier 'kata-leap-years'. Abandon." ; exit 1; }
+cd "$(find ~ -type d -name "$REPOSITORY" -maxdepth 3 | head -n 1)" \
+  || { echo "⚠️  Impossible de trouver le dossier '$REPOSITORY'. Abandon." ; exit 1; }
 
 # --- track branch ---
 git checkout --track $KATA_BRANCH_NAME
